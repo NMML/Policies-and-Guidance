@@ -19,6 +19,7 @@ GitHub offers free public repositories for open source projects as well as subsc
 
 ##Basics for GitHub Users
 All @NMML users should 
+
 1. Use a real picture as their GitHub profile pic.
 2. Enable two-factro authentication for their Github account. 
 
