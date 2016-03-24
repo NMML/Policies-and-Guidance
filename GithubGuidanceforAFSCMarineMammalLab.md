@@ -6,10 +6,10 @@ Remember that your official activities online are subject to applicable Federal 
 ##Scientific Products
 The NOAA Scientific Integrity Policy defines a Scientific Product as "Presentation of the results of scientific activities including the analysis, synthesis, compilation, or translation of scientific information and data into formats for the use of NOAA, the Department of Commerce, or the Nation."
 
-Activity on github related to AFSC-MML science and research should be limited to *scientific products*.
+Activity on github related to AFSC-MML science and research should be limited to **scientific products**.
 
 ##No Sensitive Data
-Repositories should not include any sensitive data or information. The majority (if not all) of information and research at the AFSC Marine Mammal Laboratory (AFSC-MML) is not considered sensitive and is intended for, eventual, public release. Please confirm you do not store any account passwords, user logins, API keys as part of any scripts. Instead, you should store that information *outside of version controled files* --- use .gitignore --- or as environment variables on your local system.
+Repositories should not include any sensitive data or information. The majority (if not all) of information and research at the AFSC Marine Mammal Laboratory (AFSC-MML) is not considered sensitive and is intended for, eventual, public release. Please confirm you do not store any account passwords, user logins, API keys as part of any scripts. Instead, you should store that information **outside of version controled files** --- use .gitignore --- or as environment variables on your local system.
 
 ##What is GitHub?
 GitHub is a third-party website that offers code repositories that developers can use to collaborate on software development projects in real-time. Many users also use GitHub to publish and track documents, such as style guides and policies. In addition, GitHub provides social networking features that allow developers to follow open source projects, share code, and learn how code changes are made throughout the development process. The public can submit suggested changes to a developer’s content that the developer can accept and integrate. GitHub is so named because it uses the open source version control system called Git. [Learn more about GitHub and how to use it](https://github.com/about).
