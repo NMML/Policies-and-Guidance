@@ -4,7 +4,7 @@ This is guidance developed for how the NOAA Alaska Fisheries Science Center Mari
 Remember that your official activities online are subject to applicable Federal law, ethics regulations, and agency policies. Existing policies and guidance for accessibility, privacy, external site links, cookies, and writing style apply to social media tools as well.
 
 ##Scientific Products
-The NOAA Scientific Integrity Policy defines a Scientific Product as "Presentation of the results of scientific activities including the analysis, synthesis, compilation, or translation of scientific information and data into formats for the use of NOAA, the Department of Commerce, or the Nation."
+The [NOAA Scientific Integrity Policy (NAO 202-735D)](http://www.corporateservices.noaa.gov/ames/administrative_orders/chapter_202/202-735-D.html) defines a Scientific Product as "Presentation of the results of scientific activities including the analysis, synthesis, compilation, or translation of scientific information and data into formats for the use of NOAA, the Department of Commerce, or the Nation."
 
 Activity on github related to AFSC-MML science and research should be limited to **scientific products**.
 
