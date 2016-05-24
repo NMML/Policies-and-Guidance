@@ -8,8 +8,26 @@ The [NOAA Scientific Integrity Policy (NAO 202-735D)](http://www.corporateservic
 
 Activity on github related to AFSC-MML science and research should be limited to **scientific products**.
 
+##FISMA Low
+
+The Federal Information Security Management Act of 2002 (FISMA) and subsequent policies outline three levels of information security: low, moderate, and high. _Only information that can be reasonably classified as **FISMA Low** will be shared on github.com by AFSC-MML users._ 
+
+The following table is reproduced from [FIPS Publication 199 - Standards for Security Categorization of Federal Information and Information Systems](http://csrc.nist.gov/publications/fips/fips199/FIPS-PUB-199-final.pdf) and provides guidelines on classification of information.
+
+| Security Objective | Low | Moderate | High |
+| :--- | ---: | ---: | ---: |
+| **Confidentiality** |
+| Preserving authorized restrictions on information access and disclosure, including means for protecting personal privacy and proprietary information.[44 U.S.C., SEC. 3542]  | The unauthorized disclosure of information could be expected to have a **limited** adverse effect on organizational operations, organizational assets, or individuals.  | The unauthorized disclosure of information could be expected to have a **serious** adverse effect on organizational operations, organizational assets, or individuals. | The unauthorized disclosure of information could be expected to have a **severe** or **catastrophic** adverse effect on organizational operations, organizational assets, or individuals. |
+| **Integrity** |
+| Guarding against improper information modification or destruction, and includes ensuring information nonrepudiation and authenticity. [44 U.S.C., SEC. 3542]   | The unauthorized modification or destruction of information could be expected to have a **limited** adverse effect on organizational operations, organizational assets, or individuals.   | The unauthorized modification or destruction of information could be expected to have a **serious** adverse effect on organizational operations, organizational assets, or individuals.  | The unauthorized modification or destruction of information could be expected to have a **severe** or **catastrophic** adverse effect on organizational operations, organizational assets, or individuals.  |
+| **Availability** |
+| Ensuring timely and reliable access to and use of information. [44 U.S.C., SEC. 3542] | The disruption of access to or use of information or an information system could be expected to have a **limited** adverse effect on organizational operations, organizational assets, or individuals.   | The disruption of access to or use of information or an information system could be expected to have a **serious** adverse effect on organizational operations, organizational assets, or individuals.  | The disruption of access to or use of information or an information system could be expected to have a **severe** or **catastrophic** adverse effect on organizational operations, organizational assets, or individuals.  |
+
+
 ##No Sensitive Data
-Repositories should not include any sensitive data or information. The majority (if not all) of information and research at the AFSC Marine Mammal Laboratory (AFSC-MML) is not considered sensitive and is intended for, eventual, public release. Please confirm you do not store any account passwords, user logins, API keys as part of any scripts. Instead, you should store that information **outside of version controled files** --- use .gitignore --- or as environment variables on your local system.
+Repositories should not include any sensitive data or information. The majority (if not all) of information and research at the AFSC Marine Mammal Laboratory (AFSC-MML) is not considered sensitive and is intended for, eventual, public release. Please confirm you do not store any account passwords, user logins, API keys as part of any scripts. Instead, you should store that information **outside of version controled files** --- use .gitignore --- or as environment variables on your local system. 
+
+Unintentional release of account logins or passwords is the most significant security risk for AFSC-MML users. If you have inadvertantly commited source code to your local git repository that includes user accounts or passwords, please ask for support from the AFSC-MML administrators on how to purge that information from your commit history. Each user must take this responsibility seriously and each user will be held accountable for any unintentional disclosure.
 
 ##What is GitHub?
 GitHub is a third-party website that offers code repositories that developers can use to collaborate on software development projects in real-time. Many users also use GitHub to publish and track documents, such as style guides and policies. In addition, GitHub provides social networking features that allow developers to follow open source projects, share code, and learn how code changes are made throughout the development process. The public can submit suggested changes to a developer’s content that the developer can accept and integrate. GitHub is so named because it uses the open source version control system called Git. [Learn more about GitHub and how to use it](https://github.com/about).
@@ -26,8 +44,11 @@ All AFSC-MML users should
 2. Enable two-factor authentication for their Github account. 
 
 
-##Who May Have Administrative and Write Access to the NMML Github Organization account? Who may be team members?
-AFSC-MML civil service staff may be account owners and team leaders with administrative level rights, giving them the ability to create repositories and assign team members to their GitHub projects. Both AFSC-MML civil service staff and authorized contractors may be team members able to contribute content to existing repositories. Under no circumstances may non-Department of Commerce staff, unauthorized contractors, or members of the public become team members. AFSC-MML uses GitHub in the spirit of [Open Government](http://www.whitehouse.gov/open). The public can make [pull requests](https://help.github.com/articles/using-pull-requests/), comment, and make content suggested edits to your content. Pull requests are the heart of collaboration on GitHub. When GitHub members make a pull request, they are proposing their changes to your content and requesting that you pull in their contribution. They will not be allowed to make actual changes until you review and approve those changes.
+##Who May Have Administrative and Write Access to the AFSC-MML Github Organization account? Who may be team members?
+AFSC-MML civil service staff may be account owners and team leaders with administrative level rights, giving them the ability to create repositories and assign team members to GitHub projects under the AFSC-MML organization. Both AFSC-MML civil service staff and authorized contractors may be team members able to contribute content to existing AFSC-MML repositories. Under no circumstances may non-Department of Commerce staff, unauthorized contractors, or members of the public become team members of repositories under the AFSC-MML organization. AFSC-MML uses GitHub in the spirit of [Open Government](http://www.whitehouse.gov/open). The public can make [pull requests](https://help.github.com/articles/using-pull-requests/), comment, and make content suggested edits to your content. Pull requests are the heart of collaboration on GitHub. When GitHub members make a pull request, they are proposing their changes to your content and requesting that you pull in their contribution. They will not be allowed to make actual changes until you review and approve those changes.
+
+##Scientific Collaboration with non-Department of Commerce Individuals
+AFSC-MML's strong history of scientific collaboration, coordination, and close engagement with other government partners, non-goverment organizations, academic institutions, international colleagues, and other members of the scientific research community. The guidelines provided in the previous section apply **only** to the AFSC-MML github organization and any repositories created under the AFSC-MML github organization. For those instances when an AFSC-MML users's scientific process requires close collaboration with a non-Department of Commerce invididual (such that including that individual as a team member or administrator on the repository would improve the scientific integiry and efficiency), the AFSC-MML user is advised to maintain the project repository under their github account and not the AFSC-MML organization.
 
 ##Getting Started
 ###Approval Steps
@@ -45,7 +66,7 @@ All projects posted to a DOC or DOC bureau GitHub public repository must include
 
 ###Dual Origin Push Repositories
 
-All repositories should be setup to push to both the github.com and the AFSC gitlab repository. Detailed instructions will be added here. This insures that a master copy of the repository exists on an AFSC controlled server that only NOAA users have access to.
+All repositories should be setup to push to both the github.com and the AFSC gitlab repository. Detailed instructions will be added here in the near future. This insures that a master copy of the repository exists on an AFSC controlled server that only NOAA users have access to.
 
 ###Notify AFSC-MML GitHub Administrators
 After you have published your content to an AFSC-MML GitHub repository, you should notify one the AFSC-MML admin users so we can “watch” your repository and be notified of updates in our dashboards.  AFSC-MML administrators will do this by selecting the “Watch” button at the top of your repository.  All AFSC-MML public repositories should be “watched” by AFSC-MML GitHub administrators so that they appear on the administrators’ dashboards.  
